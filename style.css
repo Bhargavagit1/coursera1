@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 236, 236);
+}
+.title{
+    text-align: center;
+    font-size: 1.7em;
+    font-family: cursive;
+    margin: 50px;
+    color: red;
+}
+.box1, .box2, .box3{
+    border: 1px black solid;
+    margin: 15px;
+    /* margin-left: 32px; */
+}
+.box1{
+    background-color: rgb(147, 185, 255);
+    float: left;
+    width: 30%;
+}
+.box2{
+    background-color: rgb(113, 243, 87);
+    float: left;
+    width: 30%;
+}
+.box3{
+    background-color: rgb(255, 140, 111);
+    float: left;
+    width: 30%;
+}
+
+.heading1, .heading2, .heading3{
+    padding: 10px 40px;
+    text-align: center;
+    float: right;
+    font-family: cursive;
+}
+.heading1{
+    background-color: crimson;
+    border: 1.5px solid black;
+    color: white;
+}
+.heading2{
+    background-color: rgb(9, 91, 185);
+    border: 1.5px solid black;
+    color: white;
+}
+.heading3{
+    background-color: rgb(233, 255, 36);
+    border: 1.5px solid black;
+}
+.text1, .text2, .text3{
+    clear: both;
+    padding: 20px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (min-width:768px) and (max-width:991px){
+       .box1{
+        width: 45%;
+
+    }
+    .box2{
+        width: 45%;
+
+    }
+    .box3{
+        width: 93.6%;
+
+    }
+}
+@media (max-width:767px){
+       .box1{
+        width: 90%;
+
+    }
+    .box2{
+        width: 90%;
+
+    }
+    .box3{
+        width: 90%;
+
+    }
+
+}
