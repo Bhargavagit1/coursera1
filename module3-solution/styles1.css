@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.logo-text{
+    background-color: rgb(78, 183, 224);
+    height: 100px;
+    color: white;
+    font-size: 3.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 100px;
+    padding-left: 80px;
+}
+.nav-items ul{
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+.nav-items ul li{
+    display: inline;
+    font-size: 1.4em;
+    margin: 50px;
+    font-weight: 800;
+    line-height: 100px;
+    font-family: cursive
+}
+.nav-items ul li a{
+    color: white;
+    padding: 4px 12px;
+    text-transform: uppercase;
+    /* background-color: rgb(78, 183, 224); */
+    border-radius: 15px;
+    /* border-bottom: 3px solid rgb(78, 183, 224) ; */
+    transition: 0.3s;
+}
+.nav-items ul li a:hover{
+    background-color: rgb(50, 140, 175);
+    border-radius: 12px;
+    font-size: 110%;
+}
+.checkbtn{
+    font-size: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 100px;
+    color: white;
+    margin-right: 50px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.logo-text{
+    padding-left: 45px;
+    font-size: 3.2rem;
+}
+.nav-items ul li{
+    margin: 25px;
+}
+
+.checkbtn{
+    display: block;
+}
+.nav-items ul{
+    /* top: 100px; */
+    /* left: 0; */
+    background-color: rgb(4, 154, 180);
+    text-align: center;
+    width: 100%;
+    /* height: 68vh; */
+    /* left: -100%; */
+}
+.nav-items ul li{
+    display: block;
+}
+.heading1{
+    text-align: center;
+    font-size: 3em;
+    font-family: cursive;
+    color: rgb(29, 148, 37);
+    margin: 20px;
+}
+section{
+    position: absolute;
+    top: 500px;
+    
+}
+section div{
+    margin: 50px;
+    background-color: gray;
+    border: 2px black solid;
+    font-size: 1.5em;
+}
+.chicken-h1{
+    text-align: center;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+}
+.chicken-p{
+    padding: 20px;
+    color: cornsilk;
+}
+.prawns-h1{
+    text-align: center;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+}
+.prawns-p{
+    padding: 20px;
+    color: cornsilk;
+}
+.Sushi-h1{
+    text-align: center;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+}
+.Sushi-p{
+    padding: 20px;
+    color: cornsilk;
+}
+section div a{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
